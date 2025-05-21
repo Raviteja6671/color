@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Box Model - 4 Containers</title>
+  <style>
+    body {
+      background-color: #f9f9f7;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    h2 {
+      font-weight: bold;
+      color: #000000;
+    }
+
+    .box {
+      width: 300px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    .box1 {
+      background-color: #1b8cbc;
+      margin: 10px;
+      border: 8px solid #f50d09;
+      border-radius: 10px 0px;
+    }
+
+
+    .box3 {
+      background-color: #76ec70;
+      margin: 10px;
+      border: 4px dotted rgb(231, 16, 41);
+    }
+
+    .box4 {
+      background-color: #fbe7d0;
+      box-sizing: border-box;
+      margin: 10px;
+      border: 10px groove rgb(24, 191, 228);
+    }
+
+
+    
+    .box2 {
+      background-color: #f095df;
+      margin: 20px;
+      border: 5px dashed #635bcd;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>CSS box Model - 4/Containers</h2>
+
+  <div class="box box1">
+    Box 1: Small Margin, Large Padding, Border
+  </div>
+
+  <div class="box box4">
+    Box 2: Box sizing, Groove Border
+  </div>
+
+  <div class="box box3">
+    Box 3: Medium Margin,<br> Padding, Dashed Border
+  </div>
+
+  <div class="box box2">
+    Box 4: Medium Margin,<br> Padding, dotted Border
+  </div>
+
+
+
+</body>
+</html>
